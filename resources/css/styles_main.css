@@ -1,0 +1,224 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'New Rocker';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/newrocker/v14/MwQzbhjp3-HImzcCU_cJoGQfiA.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Permanent Marker';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/permanentmarker/v10/Fh4uPib9Iyv2ucM6pGQMWimMp004La2Cfw.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9WXh0pg.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+}
+
+/* Base Styles */
+
+html {
+  font-size: 16px;    
+  background-color: rgb(2 0 42);
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+  
+/* Header */
+
+.logo-full {
+  display: inline-block;
+  width: 20%;
+}
+
+#logotext {
+  font-family: 'New Rocker';
+  font-size: 4.5rem;
+  line-height: 1rem;
+  display: inline-block;
+  position: relative;
+  left: 3.5rem;
+  color: rgb(340 340 340);
+}
+
+#logo img {
+  width: 3.5rem;
+  display: inline-block;
+  position: relative;
+  top: 2.5rem;
+  left: 0;
+}
+
+#tag {
+  font-family: 'Permanent Marker';
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  line-height: 1rem;
+  color: rgb(235 197 0);
+}
+
+header {
+  margin: 0 auto;
+}
+
+header nav {
+  display: inline-block;
+  width: 75%;
+  position: relative;
+  text-align: right;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: inline-block;
+  padding-inline-start: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+  font-family: 'Permanent Marker';
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  font-size: 1.5rem; 
+}
+
+header nav a {
+  text-decoration: none;
+  color: rgb(340 340 340);
+}
+
+header nav a:hover {
+  transition: color 250ms ease-in 75ms;
+  color: rgb(235 197 0);
+}
+
+/*#dropdown {
+  position: absolute;
+  float: right;
+  top: 9rem;
+  right: 37rem;
+  margin: 0;
+  padding: 0;
+}
+
+#dropdown img {
+  position: absolute;
+  float: right;
+  right: 6rem;
+}
+
+
+#dropdown ul {
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  float: right;
+  margin: 0;
+  padding: 20px;
+}
+
+#dropdown:hover {
+  display: block;
+}
+
+#dropdown li {
+  display: block; 
+  width: 100px;
+  line-height: 1.2rem;
+}
+
+#dropdown a {
+  font-family: 'Permanent Marker';
+  letter-spacing: 0.1rem;
+  line-height: 0.1rem;
+  font-size: 1rem; 
+}*/
+
+#current a {
+  border-color: rgb(35 113 255);
+  border-width: 2px;
+  padding-bottom: 2px;
+  border-bottom-style: dashed;
+}
+
+/* Footer */
+
+#contact {
+  text-align: center;
+  line-height: 2rem;
+  width: 18rem;
+  height: 18rem;
+  position: relative;
+  float: right;
+  margin-top: 1rem;
+  
+}
+
+#contact img {
+  width: 18rem;
+  height: 18rem;
+  animation: shake-animation 4.72s ease infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes shake-animation {
+  0% { transform:translate(0,0) }
+ 1.78571% { transform:translate(5px,0) }
+ 3.57143% { transform:translate(0,0) }
+ 5.35714% { transform:translate(5px,0) }
+ 7.14286% { transform:translate(0,0) }
+ 8.92857% { transform:translate(5px,0) }
+ 10.71429% { transform:translate(0,0) }
+ 100% { transform:translate(0,0) }
+}
+
+#contact a {
+  letter-spacing: 0.1rem;
+  font-family: 'Permanent Marker';
+  font-size: 1.75rem;
+  text-decoration: none;
+  color: rgb(35 113 255); 
+}
+
+#contact a:hover {
+  transition: color 300ms ease-in 100ms;
+  color:rgb(2 0 120);
+}
+
+#buttontext {
+  position: absolute;
+  top: 7.5rem;
+  right: 5rem;
+}

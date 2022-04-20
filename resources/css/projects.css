@@ -1,0 +1,125 @@
+/* Second Nav */
+
+#dropdown {
+    position: relative;
+    float: right;
+    width: 100%;
+    right: 23rem;
+    margin: 0;
+    padding: 0;
+}
+  
+#dropdown img {
+    position: relative;
+    float: right;
+}
+  
+#dropdown ul {
+    position: relative;
+    left: 22rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+}
+  
+#dropdown li {
+
+    width: 100px;
+    line-height: 1.2rem;
+}
+  
+#dropdown a {
+    font-family: 'Permanent Marker';
+    letter-spacing: 0.1rem;
+    line-height: 0.1rem;
+    font-size: 1rem; 
+}
+
+/* Content */
+
+.project-container {
+    position: relative;
+    display: inline-block;
+    width: 75%;
+    margin: 0rem auto;
+    text-align: center;
+}
+
+.project-container h1 {
+    font-family: 'Permanent Marker';
+    font-size: 2.5rem;
+    color: rgb(235 197 0);
+    letter-spacing: 0.1rem;
+    line-height: 1rem;
+}
+
+.project {
+    height: 325px;
+}
+
+.project h3 {
+    color: rgb(235 197 0);
+    font-size: 1.25rem;
+    text-align: left;
+    line-height: 1rem;
+    padding-top: 5px;
+}
+
+.project-image {
+    border: 2px rgb(35 113 255) solid;
+    border-radius: 5px;
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    margin: 1rem;
+}
+
+.project a {
+    text-decoration: none;
+}
+
+.project-content {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    font-family: Montserrat, sans-serif;
+    color: rgb(340 340 340);
+    text-align: justify;
+}
+
+.project p {
+    margin-bottom: 2rem;
+}
+
+.project h4 {
+    color: rgb(35 113 255);
+    line-height: 1rem;
+    margin: 0;
+}
+
+.project ul {
+    list-style-image: url('../images/star-bullet.png');
+}
+
+.project li {
+    color: rgb(235 197 0);
+}
+
+.skills {
+    display:inline-block;
+    font-family: Montserrat, sans-serif;
+    color:rgb(340 340 340); 
+}
+
+/* Contact Button */
+
+#contact {
+    float: right;
+    position: sticky;
+    top: 40rem;
+    width: 25%;
+}
+
+#buttontext {
+    right: 5.5rem;
+  }
